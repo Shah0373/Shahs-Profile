@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+  <title>GeoDataSelfieApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<div class="topnav">
+  <div>
+    <a href="index.html">
+      <h1 class="shahs">Shah Solehria</h1>
+    </a>
+    <h2 class="title">Technology Solutions Architect</h2>
+  </div>
+  <div class="thrdiv">
+    <div class="dropdown">
+      <button class="dropbtn">Experience
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="i-sight.html">Junior Systems Admin</a>
+        <a href="biolytical.html">Business Analyst</a>
+        <a href="itmanager.html">IT Manager</a>
+        <a href="abc.html">ERP Systems Admin</a>
+        <a href="data.html">Geo Selfie App</a>
+      </div>
+    </div>
+    <div class="resmen">
+      <a href="education.html">Education</a>
+      <a href="skills.html">Skills</a>
+      <a href="Shah_Solehria_Resume.pdf">Resume</a>
+      <a href="contactme.html">Contact</a>
+    </div>
+  </div>
+</div>
+
+<div class="workexp">
+  <div class="workexpc">
+    <script type="text/javascript" src="sketch.js">
+      function setup() {}
+    </script>
+    <div><a href="/logs" class="geo">Data Repo</a></div>
+    <p>
+      latitude: <span id="latitude"></span>&deg;<br />
+      longitude: <span id="longitude"></span>&deg;
+    </p>
+    <form>
+      <button id="cameraoff">Camera Off</button>
+    </form>
+    
+    <label for="mood">enter your mood</label>
+    <input id="mood" value="rainbow" />
+    <button id="submit">submit</button>
+  </div>
+</div>
+
+</html>
