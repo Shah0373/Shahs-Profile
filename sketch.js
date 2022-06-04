@@ -21,16 +21,8 @@ function setup() {
       const response = await fetch('/api', options);
       const json = await response.json();
       console.log(json);
-      alert("You've Successfully Submitted Your Location and Picture");
+      alert("This wont submit as we are on Github Pages");
     });
-
-
-    button.addEventListener('click', async event => {
-      const camaera = document.getElementById('cameraoff').value;
-      video.pause()
-      alert("camera stopped");
-    });
-  
     if ('geolocation' in navigator) {
       console.log('geolocation available');
       navigator.geolocation.getCurrentPosition(position => {
