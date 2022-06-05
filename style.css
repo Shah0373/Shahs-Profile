@@ -668,15 +668,3 @@ body {
 .geo:hover {
   opacity: .7;
 }
-
-.videocam {
-  display: flex;
-  justify-content: center;
-  padding: 8px 12px;
-}
-
-.camera {
-  display: flex;
-  justify-content: center;
-  margin-left: 100;
-}
