@@ -466,10 +466,9 @@ body {
 .footer {
   background-color: #000000;
   display: flex;
-  justify-content: right;
+  justify-content: space-between;
   margin: 0 auto;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .footmenu {
@@ -478,7 +477,6 @@ body {
   display: flex;
   justify-content: flex-end;
   margin: 0 auto;
-  align-items: center;
   flex-wrap: wrap;
   letter-spacing: 1px;
   font-weight: normal;
@@ -486,16 +484,15 @@ body {
 }
 
 .footmenu a {
-  display: flex;
+
   text-decoration: none;
   line-height: 2.2;
-  margin-right: 20;
   color: white;
   padding-left: 10px;
 }
 
 .hmbtn {
-  margin-left: 150;
+  margin-left: 25;
   text-decoration: none;
   color: white;
   font-size: 16px;
@@ -506,24 +503,6 @@ body {
 
 .hmbtn:hover {
   background-color: blue;
-}
-
-.empinfo {
-  max-width: 1100;
-  margin: 0 auto;
-}
-
-.empinfo h1 {
-  color: blue;
-}
-
-.header {
-  max-width: 1100;
-  margin: 0 auto;
-}
-
-.header h1 {
-  color: blue;
 }
 
 .headfea {
@@ -599,7 +578,7 @@ body {
   opacity: .7;
 }
 .fea-item1:hover .fea-1 {
-    max-width: 600px;
+    max-width: 900px;
     padding: 8px 15px;
     visibility: visible;
     opacity: 0.7; 
@@ -633,7 +612,7 @@ body {
   opacity: .7;
 }
 .fea-item2:hover .fea-1 {
-    max-width: 600px;
+    max-width: 900px;
     padding: 8px 15px;
     visibility: visible;
     opacity: 0.7; 
@@ -666,7 +645,7 @@ body {
   opacity: .7;
 }
 .fea-item3:hover .fea-1{
-  max-width: 700px;
+  max-width: 900px;
   padding: 8px 15px;
   visibility: visible;
   opacity: 0.7;
