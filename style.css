@@ -5,12 +5,15 @@ body {
 }
 
 .topnav {
-  max-height: 200;
+  height: 140;
+  position: fixed;
   background-color: #000000;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
+  width: 100%;
+  z-index: 100;
 }
 .topnav a {
   text-decoration: none;
@@ -70,7 +73,7 @@ body {
   display: none;
   position: absolute;
   min-width: 160px;
-  box-shadow: 0px 2px 8px 0px grey;
+
   z-index: 1;
 }
 
